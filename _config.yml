@@ -9,25 +9,25 @@
 #
 # url is site domain, full URL to the production location of your collection
 # on GitHub Pages follows the pattern username.github.io
-#url: https://collectionbuilder.github.io 
+url: https://buildsd.github.io
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-#baseurl: /collectionbuilder-gh 
+baseurl: /library
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-sheets
+source-code: https://github.com/BuildSD/library
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: CollectionBuilder-Sheets
+title: "BuildSD Primary Sources"
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: a template for creating simple digital exhibits
+tagline: "Archiving the history of San Diego's development and transit."
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-Sheets is a template for creating simple digital exhibit websites by loading collection metadata directly from a CSV, designed for teaching digital library skills."
+description: "Together, we're rewriting the story of San Diego's development, documenting and advocating for sustainable development to build a #BetterSD for all."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: "BuildSD"
 
 ##########
 # COLLECTION SETTINGS
@@ -37,7 +37,7 @@ author: CollectionBuilder
 # e.g. relative path "/assets/demo-metadata.csv"
 # e.g. published google sheet "https://docs.google.com/spreadsheets/d/e/2PACX-1vSn7AA-cbsXT3_nNUGftc1ab-CKXOJHMQCIENeR9NHElbyI9_qA99o0-HNZdG04v-M2_N21bUe_krQQ/pub?output=csv"
 # e.g. on GitHub use the raw link "https://raw.githubusercontent.com/CollectionBuilder/collectionbuilder-sample-data/main/psychiana_cbdemo_gh.csv"
-metadata-csv: 
+metadata-csv: "https://docs.google.com/spreadsheets/d/e/2PACX-1vT7iwOC48gNcP-_ix_uQGuWgCTlmPJKtPDfwlilLKXNCTE94Db-2x4_KvcI-F78s_HPE17ilCvIA3lX/pub?gid=1447384171&single=true&output=csv"
 
 ##########
 # Site/Organization Branding 
@@ -52,7 +52,7 @@ metadata-csv:
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+noindex: true 
 
 ##########
 # BUILD SETTINGS 
@@ -62,7 +62,7 @@ metadata-csv:
 # (this is done automatically by gh-pages build)
 #
 # dev mode turns on ability to change metadata
-development-mode: true
+development-mode: false
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
 # compress CSS output
