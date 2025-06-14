@@ -10,7 +10,7 @@
 # use a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
 featured-image: https://buildsd.org/img/site/hero02.jpg
 # optional: add extra padding around collection title for a larger image feature. 
-home-title-y-padding: 10em # Default is 8em
+home-title-y-padding: 6em # Default is 8em
 # optional: change position of background image, center, top, bottom
 home-banner-image-position: # Default is center
 
@@ -30,9 +30,9 @@ subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g.
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: location # set the field to be featured in the cloud
-locations-min: 1 # min size for subject cloud, too many terms = slow load time!
-locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
+# locations-fields: location # set the field to be featured in the cloud
+# locations-min: 1 # min size for subject cloud, too many terms = slow load time!
+# locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # MAP PAGE
@@ -51,15 +51,15 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 ##########
 # TIMELINE PAGE
 #
-year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav, leave blank to auto gen
-year-nav-increment: 5 # set increments when auto gen nav years
+# year-navigation: #"1900;1905;1910;1915;1920" # set years to appear in dropdown nav, leave blank to auto gen
+# year-nav-increment: 5 # set increments when auto gen nav years
 
 ##########
 # DATA 
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "title,creator,date,description,subject,format,type,language,rights"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format"
 
@@ -97,8 +97,8 @@ bootswatch: # leave blank or comment out for plain bootstrap
 base-font-size: 1.2em
 text-color: "#191919"
 link-color: "#0d6efd"
-base-font-family: # comment out for bootstrap defaults. e.g. Roboto
-font-cdn: # add font stylesheet, e.g. <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+base-font-family: "proxima-nova" # comment out for bootstrap defaults. e.g. Roboto
+font-cdn: "<link href="https://use.typekit.net/fyp8xku.css" rel="stylesheet">"  # add font stylesheet, e.g. <link href="https://use.typekit.net/fyp8xku.css" rel="stylesheet">
 
 # THEME ICONS [optional!]
 # cb-gh uses Bootstrap Icons, https://icons.getbootstrap.com/
