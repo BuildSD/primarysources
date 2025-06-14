@@ -16,7 +16,7 @@
     font-family: "Orelega One", "proxima-nova" !important;
 }
 
-.btn-primary {
+.btn-primary, .btn-success {
     background-color: #009900 !important;
     border-color: transparent !important;
 }
@@ -33,4 +33,12 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 #title h1.mt-2 {
     margin-top: 1.1rem !important;
     font-family: "Orelega One", "proxima-nova" !important;
+}
+
+#scroll-to-top {
+    color: #009900;
+}
+
+footer {
+    display: none !important;
 }
