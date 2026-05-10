@@ -97,8 +97,8 @@ bootswatch: # leave blank or comment out for plain bootstrap
 base-font-size: 1.2em
 text-color: "#191919"
 link-color: "#009900"
-base-font-family: "proxima-nova" # comment out for bootstrap defaults. e.g. Roboto
-font-cdn: '<link href="https://use.typekit.net/fyp8xku.css" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Orelega+One&display=swap" rel="stylesheet"/>'  # add font stylesheet, e.g. <link href="https://use.typekit.net/fyp8xku.css" rel="stylesheet">
+base-font-family: "Atkinson Hyperlegible Next" # comment out for bootstrap defaults. e.g. Roboto
+font-cdn: '<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">'
 
 # THEME ICONS [optional!]
 # cb-gh uses Bootstrap Icons, https://icons.getbootstrap.com/
